@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*font-style -> font-weight -> font-size -> font-family*/
+
+
+:root{
+    --cor0:#F266F2;
+    --cor1:#E660E6;
+    --cor2:#CC56CC;
+    --cor3:#A646A6;
+    --cor4:#662B66;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    min-width: 320;
+    }
+body{
+    background-color: #CC56CC;
+    margin: auto;
+    }
+header{
+    color:var(--cor0);
+    text-align: center;
+    min-height: 5px;
+    padding-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    }
+    a{
+        margin: 15px 0px;
+        text-decoration: none;
+        color: black;
+        
+    }
+    
+   nav > a:hover{
+    background-color:var(--cor4);
+    color: var(--cor3); 
+    transition-duration: .5s;  
+    }
+   *{
+    margin: 0px;
+    padding: 0px;
+   }
+
+   img{
+   
+    display: block;
+    max-width: 350px;
+    position: absolute;
+    top: 20%;
+    left: 60%
+   }
+
+   div.linha{
+   color: black;
+   position: absolute;
+   height: 200px;
+   width: 200px;
+   }
+   footer{
+    text-align: center;
+    padding: 5px;
+    font-size: 0.8em;
+   }
+    
+   
