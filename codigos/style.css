@@ -1,7 +1,10 @@
 @charset "UTF-8";
 /*font-style -> font-weight -> font-size -> font-family*/
 
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 :root{
     --cor0:#F266F2;
     --cor1:#E660E6;
@@ -12,18 +15,32 @@
     font-weight: normal;
     min-width: 320;
     }
+
 body{
     background-color: #CC56CC;
     margin: auto;
     }
 header{
     color:var(--cor0);
-    text-align: center;
+    text-align:center;
     min-height: 5px;
     padding-top: 10px;
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
+    }
+
+    h1.basico{
+        text-align: left;
+        padding: 10px;
+        margin: 10px;
+        text-indent: 10px;
+    }
+    h3{
+        text-align: left;
+        padding: 10px;
+        margin: 10px;
+        text-indent: 12px;
     }
     a{
         margin: 15px 0px;
@@ -37,10 +54,7 @@ header{
     color: var(--cor3); 
     transition-duration: .5s;  
     }
-   *{
-    margin: 0px;
-    padding: 0px;
-   }
+  
 
    img{
    
@@ -48,7 +62,7 @@ header{
     max-width: 350px;
     position: absolute;
     top: 20%;
-    left: 60%
+    left: 60%;
    }
 
    div.linha{
@@ -57,10 +71,12 @@ header{
    height: 200px;
    width: 200px;
    }
-   footer{
-    text-align: center;
-    padding: 5px;
-    font-size: 0.8em;
+
+   footer > p{
+    text-align:center;
+    margin:
+   
    }
+
     
    
