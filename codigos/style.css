@@ -43,7 +43,7 @@
             left: 470px;
         }
 
-        a.sobreMim{
+        a.Objetivos{
             position: absolute;
             top: 10px;
             left: 740px;
@@ -85,6 +85,7 @@
   
 
    img{
+    
     display: block;
     max-width: 350px;
     position: absolute;
