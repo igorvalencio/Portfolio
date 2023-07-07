@@ -33,11 +33,11 @@ header {
 }
 
 .classeHeader{
-    position: fixed;
+    
 }
 #InicioBox {
     position: absolute;
-    margin: 100px;
+    margin: 1em 1em 1em 50em;
     width: 150px;
     height: 150px;
     background-color: var(--cor2);
@@ -48,7 +48,7 @@ header {
 
 #projetosBox {
     position: absolute;
-    margin: 100px;
+    margin: 1em 1em 1em 40em;
     width: 150px;
     height: 150px;
     background-color: var(--cor2);
@@ -58,18 +58,17 @@ header {
 
 #objetivosBox {
     position: absolute;
-    margin: 100px;
+    margin: 1em 1em 1em 30em;
     width: 150px;
     height: 150px;
-
     background-color: var(--cor2);
     border-radius: 20px;
     padding: 10px;
 }
 
-#curiosidadesBox {
+#curiosidadeBox {
     position: absolute;
-    margin: 100px;
+    margin: 1em 1em 1em 20em;
     width: 150px;
     height: 150px;
     background-color: var(--cor2);
