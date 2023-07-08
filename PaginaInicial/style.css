@@ -20,6 +20,7 @@
 body {
     background-color: var(--cor0);
     margin: auto;
+    height: 100vh;
 }
 
 /* header {
@@ -34,8 +35,8 @@ body {
 
 .classeHeader {
     position: absolute;
-    margin-left: 300px;
-    margin-top: 350px;
+    margin-left: 150px;
+    margin-top: 460px;
     display: block;
     text-align: center;
     padding-left: 100px;
@@ -47,18 +48,18 @@ body {
 
 #InicioBox {
     position: absolute;
-    margin: -0.1em 1em 1em 30em;
+    margin: -10em 1em 1em 30em;
     width: 150px;
     height: 150px;
     background-color: var(--cor3);
     border-radius: 20px;
     padding: 10px;
-    
+
 }
 
 #projetosBox {
     position: absolute;
-    margin: -10em 1em 1em 40em;
+    margin: -10em 1em 1em 42em;
     width: 150px;
     height: 150px;
     background-color: var(--cor3);
@@ -68,7 +69,7 @@ body {
 
 #objetivosBox {
     position: absolute;
-    margin: -10em 1em 1em 30em;
+    margin: -0.1em 1em 1em 30em;
     width: 150px;
     height: 150px;
     background-color: var(--cor3);
@@ -78,7 +79,7 @@ body {
 
 #curiosidadeBox {
     position: absolute;
-    margin: -0.1em 1em 1em 40em;
+    margin: -0.1em 1em 1em 42em;
     width: 150px;
     height: 150px;
     background-color: var(--cor3);
@@ -113,21 +114,23 @@ a {
     } */
 
 
+   
 img {
-    /* display: block; */
+    
     max-width: 350px;
-    margin: 1em 1em 10em 40em;
-    /* transform: translate(50%, 50%); */
+    padding-left: 600px;
+    margin-top: -150px;
 }
 
-/* #FundoIMG {
-    
-    background-color:white;
-    width: 150px;
-    height: 150px;
-    margin-top: 100px;
-    border-radius: 20px;
-} */
+.FUNDOIMG {
+    position: relative;
+    top: 100px;
+    left: 700px;
+        height: 150px;
+        width: 150px;
+        border-radius: 150px;
+        background-color: white;
+}
 
 /* div.linha {
     color: black;
