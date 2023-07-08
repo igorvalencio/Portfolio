@@ -22,7 +22,7 @@ body {
     margin: auto;
 }
 
-header {
+/* header {
     color: var(--cor0);
     text-align: center;
     min-height: 5px;
@@ -30,57 +30,65 @@ header {
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
+} */
+
+.classeHeader {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 350px;
+    display: block;
+    text-align: center;
+    padding-left: 100px;
+    font-size: 1.2em;
+    text-decoration: none;
+    min-height: 5px;
+
 }
 
-.classeHeader{
-    
-}
 #InicioBox {
     position: absolute;
-    margin: 1em 1em 1em 50em;
+    margin: -0.1em 1em 1em 30em;
     width: 150px;
     height: 150px;
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     border-radius: 20px;
     padding: 10px;
-
+    
 }
 
 #projetosBox {
     position: absolute;
-    margin: 1em 1em 1em 40em;
+    margin: -10em 1em 1em 40em;
     width: 150px;
     height: 150px;
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     border-radius: 20px;
     padding: 10px;
 }
 
 #objetivosBox {
     position: absolute;
-    margin: 1em 1em 1em 30em;
+    margin: -10em 1em 1em 30em;
     width: 150px;
     height: 150px;
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     border-radius: 20px;
     padding: 10px;
 }
 
 #curiosidadeBox {
     position: absolute;
-    margin: 1em 1em 1em 20em;
+    margin: -0.1em 1em 1em 40em;
     width: 150px;
     height: 150px;
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     border-radius: 20px;
     padding: 10px;
 }
 
-h1.basico {
-    /* position: absolute; */
-    top: 200px;
-    left: 30px;
-    /* transform: translate(50%, 50%);  */
+.basico {
+    position: absolute;
+    margin: -30em 10em 10em 10em;
 
 }
 
@@ -95,7 +103,7 @@ h1.basico {
 a {
     margin: 15px 0px;
     text-decoration: none;
-    color: var(--cor4)
+    color: black;
 }
 
 /* nav > a:hover{
@@ -106,21 +114,27 @@ a {
 
 
 img {
-
-    display: block;
-    max-width: 400px;
-    position: absolute;
-    top: -150px;
-    left: 10px;
-    transform: translate(50%, 50%);
+    /* display: block; */
+    max-width: 350px;
+    margin: 1em 1em 10em 40em;
+    /* transform: translate(50%, 50%); */
 }
 
-div.linha {
+/* #FundoIMG {
+    
+    background-color:white;
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    border-radius: 20px;
+} */
+
+/* div.linha {
     color: black;
     position: absolute;
     height: 200px;
     width: 200px;
-}
+} */
 
 footer {
     position: absolute;
